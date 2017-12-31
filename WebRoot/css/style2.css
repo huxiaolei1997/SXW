@@ -1,0 +1,278 @@
+a:focus{text-decoration: none}
+body{
+  background: url(../img/bg.gif) center bottom fixed;
+}
+.act{
+  background: #b3b3f3;
+}
+
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.switch ul li a {
+  text-decoration: none;
+  color: black;
+}
+.switch ul li.act a {
+  text-decoration: none;
+  color: white;
+}
+.experience span a{
+  color: black;
+}
+.act-rec{
+    width: 100%;
+    height: 910px;
+}
+.recommend .view img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+   -webkit-transition: width .3s ease;
+  transition: width .3s ease;
+  position: absolute
+}
+/*.et-experience{
+  background: gray;
+}*/
+.et-experience > li {
+  display: inline-block;
+  vertical-align: top
+}
+li:nth-child(2){
+  position: relative;
+  top: -10%;
+}
+.item {
+  width: 27%;
+  height: 202px;
+  margin: 10% 3% 0;
+
+  padding: 5px;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 14px;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
+          box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
+  overflow: hidden;
+
+}
+.item:hover {
+  -webkit-animation: mythird .35s ease-in .120s forwards;
+  animation: mythird .35s ease-in .120s forwards
+}
+
+.item:hover figcaption {
+  -webkit-animation: show .55s ease-in .120s forwards;
+  animation: show .55s ease-in .120s forwards
+}
+.item:hover p:nth-of-type(2) span {
+  -webkit-animation: slideOut .4s  ease-out .3s forwards;
+  animation: slideOut .4s  ease-out .3s forwards
+}
+.item:hover p:nth-of-type(1) span {
+  -webkit-animation: slideOut .45s ease-out .15s forwards;
+  animation: slideOut .45s ease-out .15s forwards
+}
+.item:hover .view {
+  -webkit-animation: myfirst .35s ease-in .120s forwards;
+  animation: myfirst .35s ease-in .120s forwards
+}
+.item:hover .view img {
+  -webkit-animation: mysecond .35s ease-in .120s forwards;
+  animation: mysecond .35s ease-in .120s forwards
+}
+.falldown {
+  margin:4% 3%;
+}
+
+.et-experience{
+  height: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom:-110px;
+  margin-top: 50px;
+  position: relative;
+}
+/*.et-experience:nth-of-type(1){
+  background: red;
+}*/
+figcaption{
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  overflow:hidden;
+  opacity: 0;
+}
+figcaption p{
+  line-height: 25px !important;
+font: bold 12px/18px "Arial", sans-serif;
+text-transform: uppercase;
+padding: 0 10px;
+margin: 5px 0;
+width: 100%;
+background-color: #f0f0f0;
+color: #333;
+}
+figcaption span {
+  left: -100%;
+  opacity: 1
+}
+figure{
+  position: relative;/*只有这样才会居中显示，不然width:100%;是会铺满整个li的，此时.item{padding:0 10px;}只能是padding-left有效*/
+  width:100%;
+  height: 100%;
+
+}
+.view1 figcaption{
+  margin-top: 10px;
+}
+.view{
+  overflow: hidden;
+  width: 100%;
+  height: 190px;
+  position: relative
+}
+
+/*.falldown:hover {
+  height: 270px;
+  padding: 15px;
+   -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.falldown:hover figcaption {
+  -webkit-animation: show .25s ease-in .120s forwards;
+  -o-animation: show .25s ease-in .120s forwards;
+  animation: show .25s ease-in .120s forwards
+}
+.falldown:hover p:nth-of-type(2) span {
+  -webkit-animation: slideOut .2s  ease-out .3s forwards;
+  -o-animation: slideOut .2s  ease-out .3s forwards;
+  animation: slideOut .2s  ease-out .3s forwards
+}
+.falldown:hover p:nth-of-type(1) span {
+  -webkit-animation: slideOut .25s ease-out .15s forwards;
+  -o-animation: slideOut .25s ease-out .15s forwards;
+  animation: slideOut .25s ease-out .15s forwards
+}
+.falldown:hover .view2 img {
+  top: 5px;
+  height: 170px;
+}
+.falldown:hover .view2{
+  top: 65px;
+  height: 170px;
+}
+.falldown p{
+  opacity: 1;
+}*/
+
+@keyframes slideOut {
+  0% {
+    left: -100%;
+    opacity: 0
+  }
+
+  95% {
+    left: 0;
+    opacity: 0.2
+  }
+
+  100% {
+    opacity: 1;
+    left: 0
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1
+  }
+}
+@keyframes myfirst
+{
+from {height: 190px;}
+to {height: 170px;
+  }
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+  from {height: 190px;}
+  to {height: 170px;
+  }
+}
+@keyframes mysecond
+{
+
+to {  top: 0px;
+  left: 0px;
+  }
+}
+
+@-webkit-keyframes mysecond /* Safari 和 Chrome */
+{
+
+  to {  top: 0px;
+    left:0px;
+  }
+}
+@-webkit-keyframes mythird
+{
+
+to {  height: 270px;
+  padding: 15px;
+  -webkit-transform: translateY(-68px);
+  transform: translateY(-68px)
+  }
+}
+@keyframes mythird
+{
+
+to {  height: 270px;
+  padding: 15px;
+  -webkit-transform: translateY(-68px);
+  transform: translateY(-68px)
+  }
+}
+
+@-webkit-keyframes third /* Safari 和 Chrome */
+{
+
+  to {  height: 270px;
+    padding: 15px;
+    -webkit-transform: translateY(-68px);
+    transform: translateY(-68px)
+  }
+}
+
+@-webkit-keyframes slideOut {
+  0% {
+    left: -100%;
+    opacity: 0
+  }
+
+  95% {
+    left: 0;
+    opacity: 0.2
+  }
+
+  100% {
+    opacity: 1;
+    left: 0
+  }
+}
+
+@-webkit-keyframes show {
+  to {
+    opacity: 1
+  }
+}

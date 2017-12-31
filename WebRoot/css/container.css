@@ -1,0 +1,35 @@
+.container{
+  position: absolute;
+  top:100%;
+  left: 7%;
+  overflow: hidden;
+  }.col-lg-6 p{
+  font-size: 18px;
+  line-height: 22px;
+}
+.testimonial{
+  border:1px solid #339966;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  font-size:18px;
+}
+.col-lg-6 h1{
+  margin-bottom: 25px;
+}
+.testimonial:after {
+    border-top-color: #339966;
+}
+
+.testimonial:after {
+    top: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-top-color: #339966;
+    border-width: 15px;
+    margin-left: -15px;
+}

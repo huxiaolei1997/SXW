@@ -1,0 +1,131 @@
+.allcont{
+    width: 1200px;
+    margin-top: 40px;
+}
+.contfirst, .contsec, .contthird{
+    margin-top: 4%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed blue;
+}
+.allcont img{
+  float: left;
+  width: 55%;
+  height: 95%;
+  margin-left: 5%;
+}
+.text{
+    padding-top: 5%;
+    margin-left: 65%;
+    /*margin-top: 5%;*/
+    line-height: 2rem;
+}
+.text h3{
+    margin-left: 17%;
+    font-size: 20px;
+    font-weight: 550;
+}
+.price{
+    font-size: 37px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: red;
+}
+.live-button{
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+    color: #fefefe;
+    background-color: #9ec1e5;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.live-button:hover{
+    background-color: rgba(158, 193, 229, 0.83);
+}
+
+
+form.user-formtable{
+    display: table;
+    width: 1200px;
+    margin: 20px auto;
+
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+h1{
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+div.tablerow{
+    display: table-row;
+    vertical-align:bottom;
+    line-height: 60px;
+
+}
+div.tableline{
+    display: table-cell;
+    vertical-align:bottom;
+
+}
+div.tableline label{
+    display: block;
+    text-align: right;
+
+    /*width: 20%;*/
+    padding-right: 10px;
+    color: #888;
+}
+div.tableline input,div.tableline select{
+    margin-left: 10px;
+    width: 70%;
+    height:30px;
+    padding-left: 5px;
+
+    border: 1px solid #DADADA;
+    color: #888;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+div.tableline select.user-selhouses{
+    width: 70%;
+    height:37px;
+}
+.tableline{
+    position: relative;
+}
+.tableline span{
+    position: absolute;
+    left:67%;
+    top:79%;
+    line-height: 23px;
+}
+@media screen and (max-width: 1200px) {
+
+    form.user-formtable{
+
+        width: 99%;
+        padding: 25px 0px;
+    }
+    .allcont{
+        width: 96%;
+    }
+}

@@ -1,0 +1,169 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.wrap {
+	/*border: 1px solid green;*/
+	width: 600px;
+	height: 350px;
+	/*display: none;*/
+	padding: 2px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 83%;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1500;
+}
+
+.bbb {
+	position: relative;
+	height: 350px;
+	width: 700px;
+}
+
+.showImage0 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1500;
+	display: none;
+}
+
+.showImage1 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1500;
+	display: none;
+}
+
+.showImage2 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1500;
+	display: none;
+}
+
+.wrap img {
+	width: 600px;
+	height: 350px;
+}
+
+.btn7 .prev {
+	position: absolute;
+	top: 45%;
+	left: 3%;
+	color: white;
+	font-size: 75px;
+	cursor: pointer;
+}
+
+.btn7 .next {
+	position: absolute;
+	right: 3%;
+	top: 45%;
+	font-size: 75px;
+	cursor: pointer;
+	color: white;
+}
+
+.btn8 .prev {
+	position: absolute;
+	top: 45%;
+	left: 3%;
+	color: white;
+	font-size: 75px;
+	cursor: pointer;
+}
+
+.btn8 .next {
+	position: absolute;
+	right: 3%;
+	top: 45%;
+	font-size: 75px;
+	cursor: pointer;
+	color: white;
+}
+
+.btn9 .prev {
+	position: absolute;
+	top: 45%;
+	left: 3%;
+	color: white;
+	font-size: 75px;
+	cursor: pointer;
+}
+
+.btn9 .next {
+	position: absolute;
+	right: 3%;
+	top: 40%;
+	font-size: 75px;
+	cursor: pointer;
+	color: white;
+}
+
+.close0, .close1, .close2 {
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 3%;
+	font-size: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.wrrap ul li img {
+	width: 117px;
+	height: 120px;
+}
+
+.wrrap ul li {
+	display: inline-block;
+}
+
+.action {
+	border: 1px solid blue;
+}
+
+.wrrap ul {
+	position: absolute;
+	top: 142%;
+	left: 7%;
+}

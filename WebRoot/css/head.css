@@ -1,0 +1,152 @@
+/**{
+  margin:0;
+  padding: 0;
+}*/
+.act-head{
+    width: 100%;
+    height: 500px;
+}
+/*.head:after{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .4;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}*/
+  .head{
+    width: 100%;
+    height:100%;
+    position: relative;
+    background-image: url("../img/bg1.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .headtext{
+    height: 80px;
+    font-size: 47px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+  .headsearch{
+    width: 60%;
+    height: 110px;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    bottom: 175px;
+    left: 20%;
+    border-radius: 8px;
+    margin: auto;
+  }
+  .glyphicon{
+    text-align: center;
+    line-height: 50px;
+    color: rgba(128,128,128,0.3);
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .inputdiv{
+    width: 90%;
+    height: 50px;
+    background: white;
+    margin: auto;
+    margin-top:20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    position: relative;
+  }
+  .inputdiv input{
+    width: 60%;
+    height: 40px;
+    margin-top: 8px;
+    font-size:18px;
+    margin-left:3px;
+    color: gray;
+    border-color: rgba(0,0,0,0);
+    margin: auto;
+      /*当元素获得焦点时，焦点框为0*/
+    /*outline-style:dotted;*/
+    outline: none;
+  }
+  .gobtn{
+    background: #77c5eb;
+    width: 20%;
+    height: 104%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .inputbot{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .headsearch li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: white;
+  }
+  .recommend{
+    width: 1200px;
+    /*position: absolute;
+    top:95%;*/
+    margin:0 auto;
+
+  }
+  .recommend .top{
+     margin-top: 70px;
+     margin-left: 3%;
+ }
+  .recommend .top img{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+  }
+  .recommend .top span{
+    color: #7793eb;
+    font-size: 28px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-top: -1px;*/
+  }
+  .switch ul li{
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    /*background:red;*/
+    border-radius: 5px;
+  }
+  .switch ul .act{
+    background: #7793eb;
+    color: white;
+  }
+  /*.switch ul li a:hover{
+    color: white;
+  }*/
+  @media screen and (max-width:1250px){
+      .recommend{
+          width:90%;
+      }
+  }

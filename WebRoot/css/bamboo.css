@@ -1,0 +1,327 @@
+body{
+  background: url(../img/bg.gif) center bottom fixed;
+  line-height: 1.5rem;
+}
+div.detail-share {
+    margin-top: 35px;
+}
+
+.title1{
+  color: blue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+  .conttext{
+  width: 1000px;
+  min-height: 600px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  background: rgba(232, 229, 229, 0.25);
+  -webkit-box-shadow: 4px 4px 14px 3px #968f8f;
+          box-shadow: 4px 4px 14px 3px #968f8f;
+  padding: 20px;
+  clear: right;
+}
+@media screen and (max-width:1300px){
+	.conttext{width:80%;}
+}
+.first h4 ,.second h4{
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+}
+
+.conttext-img1{
+  width: 35%;
+  border: 5px solid #ddd;
+       padding: 5px;
+       background: #fff;
+       margin-left: 10%;
+       margin-right: 10%;
+}
+.conttext-img2{
+  width: 35%;
+  border: 5px solid #ddd;
+       padding: 5px;
+       background: #fff;
+}
+.conttext-img3{
+  margin-left: 10%;
+  height: 350px;
+  width: 80%;
+  border: 5px solid #ddd;
+  padding: 5px;
+  background: #fff;
+}
+.first span ,.second span ,.third span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #b7dbec;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  margin-right: 6px;
+}
+h5{
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+P.title7-p{
+  text-indent: 2em;
+  margin: 0 0 10px;
+}
+.photo1{
+  display: block;
+  margin: 20px auto;
+}
+.wai{
+  margin-left: 90px;
+}
+.photo2 ,.photo3{
+  width: 40%;
+  height: 300px;
+}
+.photo2{
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+}
+.imgs{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+h2.title7{
+  text-align: center;
+  color: blue;
+  padding-top:20px;
+  padding-bottom: 15px;
+}
+p.title7-p{
+  text-indent: 2em;
+}
+
+.img1{
+  margin-top: 50px;
+  width: 35%;
+  height: 250px;
+    margin-bottom: 30px;
+  border-radius: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.img2{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 35%;
+  height: 250px;
+  border-radius: 30px;
+}
+h3{
+  margin-left: 5%;
+}
+div.detail-container{
+    width: 1160px;
+    background-color: #fff;
+    position: absolute;
+    top:120px;
+    left: 50%;
+    margin-left: -600px;
+    padding: 20px;
+    overflow: hidden;
+}
+div.detail-main{
+    margin-right: 10px;
+    float: left;
+    width: 80%;
+}
+h1.detail-title{
+    border-top: 1px solid #bab5b5;
+    border-bottom: 1px solid #bab5b5;
+    font-size: 2.2em;
+    padding: 10px 0;
+}
+time.detail-time{
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+div.detail-writing{
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+div.detail-writing img{
+    display: block;
+    /*max-width: 100%;
+    width: auto;*/
+    /*width: 100%;*/
+    max-width: 100%;
+    padding: 10px 0;
+}
+div.detail-writing p{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+div.detail-share{
+    border-top: 1px solid #bab5b5;
+    border-bottom: 1px solid #bab5b5;
+    padding-top: 20px;
+
+}
+img.detail-share-img{
+    margin:0 10px;
+}
+div.detail-all{
+    width: 99%;
+    overflow: hidden;
+    margin: 5px;
+    border-bottom: 1px solid #bab5b5;
+}
+span.detail-lspan{
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+span.detail-rspan{
+    float: right;
+    margin-right: 20px;
+}
+img.detail-rspan-img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+img.detail-rspan-img:hover{
+    background: #c8efec;
+}
+span.detail-rspan b{
+    display: block;
+    float: right;
+    margin-top: 5px;
+}
+ul.comment-all{
+    width: 96%;
+    line-height: 1.2;
+}
+li.comment-item{
+    width: 100%;
+}
+div.comment-single{
+    margin: 5px 0;
+    cursor: pointer;
+}
+img.person-head{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+div.comment-content{
+    display: inline-block;
+    margin: 0 5px;
+}
+div.comment-content span{
+    padding: 0 5px;
+}
+div.comment-time{
+    margin: 5px 0;
+    line-height: 15px;
+}
+div.comment-time time{
+    padding: 0 5px;
+    margin-right: 5px;
+}
+img.comment-hvfu{
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+div.comment-single:hover img.comment-hvfu{
+    display: inline-block;
+}
+div.comment-reply{
+    margin-left: 40px;
+}
+
+
+div.detail-discussion{
+    width: 96%;
+    overflow: hidden;
+    padding: 8px;
+}
+textarea.detail-point{
+    width: 98%;
+    padding: 8px 5px;
+    height: 15px;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing:content-box;
+}
+textarea.detail-point:focus{
+    height: 80px;
+}
+button.detail-button{
+    width: 100px;
+    height: 30px;
+    color: #fefefe;
+    cursor: pointer;
+    background-color: #7c7ceb;
+    border: 0;
+    outline: none;
+    margin-top: 5px;
+    float: right;
+    margin-right: 6px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+button.detail-button:hover{
+    background: #9797ec;
+}
+
+div.detail-right{
+    float: left;
+    width: 15%;
+    border-left: 1px solid #bab5b5;
+    padding: 15px;
+}
+div.detail-right h2{
+    color: #ef9595;
+}
+div.detail-rcell{
+    width: 100%;
+    margin: 15px 0;
+}
+div.detail-rcell img{
+    width: 100%;
+}
+div.detail-rcell h3{
+    color: #666;
+    width: 100%;
+}
+@media screen and (max-width: 1200px) {
+    div.detail-container{
+        width: 70%;
+        margin-left: -35%;
+    }
+    div.detail-main{
+        width: 78%;
+    }
+}@media screen and (max-width: 900px) {
+    div.detail-main{
+        width: 77%;
+    }
+}
+@media screen and (max-width: 800px) {
+    div.detail-main{
+        width: 100%;
+    }
+    div.detail-right{
+        display: none;
+    }
+}

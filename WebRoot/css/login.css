@@ -1,0 +1,117 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family:'微软雅黑';
+}
+body{
+/*	background: url(../images/bgc2.jpg) no-repeat;*/
+	background-size:cover;
+	min-height:768px;
+	min-width:1024px;
+}
+#logo{
+	width:350px;
+	height:130px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 5px;
+	/*  font-size:20px;*/
+	color:#FFFFFF;
+	top:15%;
+	left:50%;
+	margin-left:-175px;
+	z-index: 9999;
+}
+#login{
+	width:600px;
+	height:330px;
+	/* background-color: red;*/
+	/* border:1px solid red;*/
+	position: absolute;
+	top:41%;
+	left:50%;
+	margin-left:-300px;
+	z-index: 9999;
+}
+#login ul li{
+	float:left;
+	list-style: none;
+	width:300px;
+	height:56px;
+	line-height:56px;
+	font-size:19px;
+	font-weight:normal;
+	text-align:center;
+	/*background-color: #09252E;*/
+	background:rgba(17,17,17,0.5);
+	/*background-color: #fff;
+*/}
+
+#login-tag{
+	width:600px;
+	height:59px;
+}
+#login ul a{
+    color:#444;
+}
+#login ul a:hover{
+	color:white;
+}
+#login-form{
+	width:600px;
+	height:270px;
+/*	border:1px solid blue;*/
+	background-color: #fff;
+	position: relative;
+	margin-top:-3px;
+}
+.left{
+	margin-left:35px;
+    width:280px;
+	height:40px;
+}
+.login-top{
+	margin-top:20px;
+}
+.submit-css{
+	background-color: #8DB800;
+	border:none;
+	width:283px;
+	font-size:19px;
+	color:white;
+	cursor:pointer;
+}
+.submit-css:hover{
+    background-color:#AED505;
+}
+#login-form ul{
+	width:170px;
+	height:auto;
+	float:right;
+	position: absolute;
+	top:20px;
+	right:25px;
+}
+#login-form ul li{
+	width:159px;
+    cursor:pointer;
+    background:rgba(0,0,0,0);
+    -webkit-filter:opacity(0.85);
+            filter:opacity(0.85);
+    opacity: 0.85;
+}
+#login-form span{
+	position: absolute;
+	top:120px;
+	left:345px;
+}
+#login-form ul li:hover{
+	-webkit-filter:opacity(1);
+	        filter:opacity(1);
+	opacity: 1;
+}
+.login-form{
+	display: none;
+}
